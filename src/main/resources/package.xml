@@ -1,8 +1,8 @@
 <package type="addon" name="nuxeo-flavors-unicolor" version="@VERSION@">
   <title>Unicolor Flavors Set</title>
   <description>
-    <p>This package offers you the Unicolor set of flavors to customize the colors of your platform easily.</p>
-	<p>The Unicolors set contains a dark header and footer, and one main color for the content. Blue, Brown, Gray, Green, Mantis, Orange, Pink, Purple, Red, Turquoise and Yellow.</p>
+    <p>This package offers you the Unicolor set of flavors: Blue, Brown, Gray, Green, Mantis, Orange, Pink, Purple, Red, Turquoise and Yellow.</p>
+    <p>Customize the colors of your platform or change the color of one of your folder easily thanks to this set.</p>
   </description>
   <home-page>https://github.com/nuxeo/nuxeo-flavors</home-page>
   <vendor>Nuxeo</vendor>
