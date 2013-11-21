@@ -4,7 +4,7 @@
     <p>This package offers you the Unicolor set of flavors: Blue, Brown, Gray, Green, Mantis, Orange, Pink, Purple, Red, Turquoise and Yellow.</p>
     <p>Customize the colors of your platform or change the color of one of your folder easily thanks to this set.</p>
   </description>
-  <home-page>https://github.com/nuxeo/nuxeo-flavors</home-page>
+  <home-page>http://doc.nuxeo.com/x/NQGw</home-page>
   <vendor>Nuxeo</vendor>
   <installer restart="true" />
   <uninstaller restart="true" />
