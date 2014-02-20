@@ -1,17 +1,18 @@
-<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
   <modelVersion>4.0.0</modelVersion>
   <parent>
     <groupId>org.nuxeo.ecm.distribution</groupId>
     <artifactId>nuxeo-distribution</artifactId>
     <version>5.9.2-SNAPSHOT</version>
-    <relativePath>../pom.xml</relativePath>
+    <relativePath></relativePath>
   </parent>
 
   <artifactId>nuxeo-marketplace-flavors-unicolor</artifactId>
   <packaging>zip</packaging>
   <version>1.4.1-SNAPSHOT</version>
   <name>Marketplace package of Nuxeo Flavors Unicolor</name>
-  
+
   <dependencyManagement>
     <dependencies>
       <dependency>
@@ -35,4 +36,35 @@
       </plugin>
     </plugins>
   </build>
+
+  <repositories>
+    <repository>
+      <id>public</id>
+      <url>http://maven.nuxeo.org/nexus/content/groups/public</url>
+      <releases>
+        <enabled>true</enabled>
+      </releases>
+      <snapshots>
+        <enabled>false</enabled>
+      </snapshots>
+    </repository>
+    <repository>
+      <id>public-snapshot</id>
+      <url>http://maven.nuxeo.org/nexus/content/groups/public-snapshot</url>
+      <releases>
+        <enabled>false</enabled>
+      </releases>
+      <snapshots>
+        <updatePolicy>always</updatePolicy>
+        <enabled>true</enabled>
+      </snapshots>
+    </repository>
+  </repositories>
+
+  <scm>
+    <connection>scm:git:git://github.com/nuxeo/marketplace-flavors-unicolor.git</connection>
+    <developerConnection>scm:git:ssh://git@github.com:nuxeo/marketplace-flavors-unicolor.git</developerConnection>
+    <url>https://github.com/nuxeo/marketplace-flavors-unicolor</url>
+  </scm>
+
 </project>
